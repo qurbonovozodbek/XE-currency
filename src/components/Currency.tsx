@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import {  useState } from "react";
 import Amount from "./Amount";
 import { Select } from "./Select";
 import Swap from "./Swap";
