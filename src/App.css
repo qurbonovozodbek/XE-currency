@@ -1,0 +1,107 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  background:  linear-gradient(to left, rgb(64, 11, 124),  rgb(115, 6, 70));
+}
+.container {
+  width: 88%;
+  margin: 0 auto;
+  margin-top: 100px;
+  background-color: white;
+  border-radius: 12px;
+  padding: 20px 40px;
+}
+.form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+label {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  display: inline-block;
+}
+.input-amount {
+  width: 330px;
+  padding: 18px 10px;
+  border: none;
+  border: 2px solid rgb(221, 221, 221);
+  border-radius: 4px;
+  font-size: 14px;
+  display: flex;
+  gap: 5px;
+}
+.input-amount input {
+  width: 100%;
+  border: none;
+  outline: none;
+}
+/* input:focus-within .input-amount {
+  border: 2px solid rgb(64, 11, 124) !important;
+} */
+.change {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  border: 2px solid rgb(221, 221, 221);
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  color: rgb(54, 46, 210);
+  margin-top: 18px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.change:hover {
+  background-color: rgb(64, 11, 124);
+  color: white;
+}
+.result {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+.info {
+  display: flex; 
+  flex-direction: column;
+  gap: 5px;
+}
+.info h3 {
+  font-size: 16px;
+  font-weight: 700;
+}
+.info h1 {
+  font-size: 30px;
+  font-weight: 700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.info h4 {
+  font-size: 12px;
+  font-weight: 400;
+}
+.button button {
+  padding: 12px 28px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+  background-color: rgb(64, 11, 124);
+  transition: all 0.3s ease-in-out;
+}
+.button button:hover {
+  background-color: rgb(221, 221, 221);
+  color: rgb(64, 11, 124);
+  box-shadow: inset 2px 4px 8px rgb(30, 30, 30);
+  transform: translateX(5px);
+}
